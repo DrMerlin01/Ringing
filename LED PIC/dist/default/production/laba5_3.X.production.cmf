@@ -1,0 +1,421 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\User\AppData\Local\Temp\sipg.obj
+reset_vec CODE 0 0 0 3 2
+end_init CODE 0 12 12 3 2
+config CONFIG 0 2007 2007 1 2
+$dist/default/production\laba5_3.X.production.obj
+cinit CODE 0 15 15 28 2
+text1 CODE 0 3D 3D 110 2
+text2 CODE 0 14D 14D A9 2
+idataCOMMON CODE 0 234 234 4 2
+maintext CODE 0 1F6 1F6 23 2
+cstackCOMMON COMMON 1 70 70 9 1
+inittext CODE 0 219 219 11 2
+intentry CODE 0 4 4 E 2
+idataBANK0 CODE 0 22A 22A A 2
+dataBANK0 BANK0 1 20 20 A 1
+dataCOMMON COMMON 1 79 79 4 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 2A-6F 1
+RAM A0-EF 1
+RAM 110-16F 1
+RAM 190-1EF 1
+BANK0 2A-6F 1
+BANK1 A0-EF 1
+BANK2 110-16F 1
+BANK3 190-1EF 1
+CONST 3-3 2
+CONST 238-1FFF 2
+ENTRY 3-3 2
+ENTRY 238-1FFF 2
+IDLOC 2000-2003 2
+STACK 110-16F 1
+CODE 3-3 2
+CODE 238-1FFF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-10F 1
+SFR3 180-18F 1
+COMMON 7D-7D 1
+EEDATA 2100-21FF 2
+STRCODE 3-3 2
+STRCODE 238-1FFF 2
+STRING 3-3 2
+STRING 238-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\laba5_3.X.production.obj
+15 cinit CODE >261:C:\Users\User\AppData\Local\Temp\sipg.
+15 cinit CODE >264:C:\Users\User\AppData\Local\Temp\sipg.
+15 cinit CODE >343:C:\Users\User\AppData\Local\Temp\sipg.
+16 cinit CODE >344:C:\Users\User\AppData\Local\Temp\sipg.
+17 cinit CODE >345:C:\Users\User\AppData\Local\Temp\sipg.
+18 cinit CODE >346:C:\Users\User\AppData\Local\Temp\sipg.
+19 cinit CODE >347:C:\Users\User\AppData\Local\Temp\sipg.
+1A cinit CODE >348:C:\Users\User\AppData\Local\Temp\sipg.
+1B cinit CODE >349:C:\Users\User\AppData\Local\Temp\sipg.
+1C cinit CODE >350:C:\Users\User\AppData\Local\Temp\sipg.
+1D cinit CODE >351:C:\Users\User\AppData\Local\Temp\sipg.
+1E cinit CODE >352:C:\Users\User\AppData\Local\Temp\sipg.
+23 cinit CODE >356:C:\Users\User\AppData\Local\Temp\sipg.
+28 cinit CODE >357:C:\Users\User\AppData\Local\Temp\sipg.
+29 cinit CODE >358:C:\Users\User\AppData\Local\Temp\sipg.
+2E cinit CODE >359:C:\Users\User\AppData\Local\Temp\sipg.
+2F cinit CODE >360:C:\Users\User\AppData\Local\Temp\sipg.
+34 cinit CODE >361:C:\Users\User\AppData\Local\Temp\sipg.
+35 cinit CODE >362:C:\Users\User\AppData\Local\Temp\sipg.
+38 cinit CODE >363:C:\Users\User\AppData\Local\Temp\sipg.
+39 cinit CODE >369:C:\Users\User\AppData\Local\Temp\sipg.
+39 cinit CODE >371:C:\Users\User\AppData\Local\Temp\sipg.
+3A cinit CODE >372:C:\Users\User\AppData\Local\Temp\sipg.
+4 intentry CODE >123:C:\Users\User\Desktop\laba5_3.X\main.c
+14D text2 CODE >37:C:\Users\User\Desktop\laba5_3.X\main.c
+14D text2 CODE >38:C:\Users\User\Desktop\laba5_3.X\main.c
+14E text2 CODE >42:C:\Users\User\Desktop\laba5_3.X\main.c
+154 text2 CODE >43:C:\Users\User\Desktop\laba5_3.X\main.c
+155 text2 CODE >47:C:\Users\User\Desktop\laba5_3.X\main.c
+15B text2 CODE >48:C:\Users\User\Desktop\laba5_3.X\main.c
+15C text2 CODE >52:C:\Users\User\Desktop\laba5_3.X\main.c
+162 text2 CODE >53:C:\Users\User\Desktop\laba5_3.X\main.c
+163 text2 CODE >57:C:\Users\User\Desktop\laba5_3.X\main.c
+169 text2 CODE >58:C:\Users\User\Desktop\laba5_3.X\main.c
+16A text2 CODE >62:C:\Users\User\Desktop\laba5_3.X\main.c
+170 text2 CODE >63:C:\Users\User\Desktop\laba5_3.X\main.c
+171 text2 CODE >67:C:\Users\User\Desktop\laba5_3.X\main.c
+177 text2 CODE >68:C:\Users\User\Desktop\laba5_3.X\main.c
+178 text2 CODE >72:C:\Users\User\Desktop\laba5_3.X\main.c
+17E text2 CODE >73:C:\Users\User\Desktop\laba5_3.X\main.c
+17F text2 CODE >77:C:\Users\User\Desktop\laba5_3.X\main.c
+185 text2 CODE >78:C:\Users\User\Desktop\laba5_3.X\main.c
+186 text2 CODE >82:C:\Users\User\Desktop\laba5_3.X\main.c
+18C text2 CODE >83:C:\Users\User\Desktop\laba5_3.X\main.c
+18D text2 CODE >87:C:\Users\User\Desktop\laba5_3.X\main.c
+193 text2 CODE >88:C:\Users\User\Desktop\laba5_3.X\main.c
+194 text2 CODE >92:C:\Users\User\Desktop\laba5_3.X\main.c
+19A text2 CODE >93:C:\Users\User\Desktop\laba5_3.X\main.c
+19B text2 CODE >97:C:\Users\User\Desktop\laba5_3.X\main.c
+1A1 text2 CODE >98:C:\Users\User\Desktop\laba5_3.X\main.c
+1A2 text2 CODE >102:C:\Users\User\Desktop\laba5_3.X\main.c
+1A8 text2 CODE >103:C:\Users\User\Desktop\laba5_3.X\main.c
+1A9 text2 CODE >107:C:\Users\User\Desktop\laba5_3.X\main.c
+1AF text2 CODE >108:C:\Users\User\Desktop\laba5_3.X\main.c
+1B0 text2 CODE >112:C:\Users\User\Desktop\laba5_3.X\main.c
+1B6 text2 CODE >113:C:\Users\User\Desktop\laba5_3.X\main.c
+1B7 text2 CODE >117:C:\Users\User\Desktop\laba5_3.X\main.c
+1BD text2 CODE >120:C:\Users\User\Desktop\laba5_3.X\main.c
+1BE text2 CODE >38:C:\Users\User\Desktop\laba5_3.X\main.c
+1F5 text2 CODE >121:C:\Users\User\Desktop\laba5_3.X\main.c
+3D text1 CODE >123:C:\Users\User\Desktop\laba5_3.X\main.c
+3D text1 CODE >125:C:\Users\User\Desktop\laba5_3.X\main.c
+3F text1 CODE >127:C:\Users\User\Desktop\laba5_3.X\main.c
+40 text1 CODE >128:C:\Users\User\Desktop\laba5_3.X\main.c
+44 text1 CODE >130:C:\Users\User\Desktop\laba5_3.X\main.c
+48 text1 CODE >131:C:\Users\User\Desktop\laba5_3.X\main.c
+4C text1 CODE >132:C:\Users\User\Desktop\laba5_3.X\main.c
+50 text1 CODE >133:C:\Users\User\Desktop\laba5_3.X\main.c
+54 text1 CODE >134:C:\Users\User\Desktop\laba5_3.X\main.c
+5A text1 CODE >135:C:\Users\User\Desktop\laba5_3.X\main.c
+5E text1 CODE >137:C:\Users\User\Desktop\laba5_3.X\main.c
+62 text1 CODE >138:C:\Users\User\Desktop\laba5_3.X\main.c
+66 text1 CODE >139:C:\Users\User\Desktop\laba5_3.X\main.c
+67 text1 CODE >140:C:\Users\User\Desktop\laba5_3.X\main.c
+71 text1 CODE >141:C:\Users\User\Desktop\laba5_3.X\main.c
+7B text1 CODE >142:C:\Users\User\Desktop\laba5_3.X\main.c
+85 text1 CODE >145:C:\Users\User\Desktop\laba5_3.X\main.c
+8A text1 CODE >147:C:\Users\User\Desktop\laba5_3.X\main.c
+8E text1 CODE >148:C:\Users\User\Desktop\laba5_3.X\main.c
+94 text1 CODE >149:C:\Users\User\Desktop\laba5_3.X\main.c
+94 text1 CODE >150:C:\Users\User\Desktop\laba5_3.X\main.c
+98 text1 CODE >152:C:\Users\User\Desktop\laba5_3.X\main.c
+A3 text1 CODE >154:C:\Users\User\Desktop\laba5_3.X\main.c
+A9 text1 CODE >158:C:\Users\User\Desktop\laba5_3.X\main.c
+AB text1 CODE >160:C:\Users\User\Desktop\laba5_3.X\main.c
+AC text1 CODE >161:C:\Users\User\Desktop\laba5_3.X\main.c
+AF text1 CODE >162:C:\Users\User\Desktop\laba5_3.X\main.c
+B4 text1 CODE >164:C:\Users\User\Desktop\laba5_3.X\main.c
+C1 text1 CODE >166:C:\Users\User\Desktop\laba5_3.X\main.c
+C5 text1 CODE >168:C:\Users\User\Desktop\laba5_3.X\main.c
+D2 text1 CODE >170:C:\Users\User\Desktop\laba5_3.X\main.c
+D6 text1 CODE >172:C:\Users\User\Desktop\laba5_3.X\main.c
+E3 text1 CODE >174:C:\Users\User\Desktop\laba5_3.X\main.c
+E7 text1 CODE >176:C:\Users\User\Desktop\laba5_3.X\main.c
+EC text1 CODE >178:C:\Users\User\Desktop\laba5_3.X\main.c
+F0 text1 CODE >179:C:\Users\User\Desktop\laba5_3.X\main.c
+F0 text1 CODE >180:C:\Users\User\Desktop\laba5_3.X\main.c
+F4 text1 CODE >184:C:\Users\User\Desktop\laba5_3.X\main.c
+F5 text1 CODE >185:C:\Users\User\Desktop\laba5_3.X\main.c
+F6 text1 CODE >186:C:\Users\User\Desktop\laba5_3.X\main.c
+F8 text1 CODE >188:C:\Users\User\Desktop\laba5_3.X\main.c
+101 text1 CODE >190:C:\Users\User\Desktop\laba5_3.X\main.c
+107 text1 CODE >192:C:\Users\User\Desktop\laba5_3.X\main.c
+108 text1 CODE >193:C:\Users\User\Desktop\laba5_3.X\main.c
+109 text1 CODE >194:C:\Users\User\Desktop\laba5_3.X\main.c
+10B text1 CODE >196:C:\Users\User\Desktop\laba5_3.X\main.c
+114 text1 CODE >198:C:\Users\User\Desktop\laba5_3.X\main.c
+11A text1 CODE >200:C:\Users\User\Desktop\laba5_3.X\main.c
+11B text1 CODE >201:C:\Users\User\Desktop\laba5_3.X\main.c
+11C text1 CODE >202:C:\Users\User\Desktop\laba5_3.X\main.c
+11E text1 CODE >204:C:\Users\User\Desktop\laba5_3.X\main.c
+127 text1 CODE >206:C:\Users\User\Desktop\laba5_3.X\main.c
+12D text1 CODE >208:C:\Users\User\Desktop\laba5_3.X\main.c
+12E text1 CODE >209:C:\Users\User\Desktop\laba5_3.X\main.c
+12F text1 CODE >210:C:\Users\User\Desktop\laba5_3.X\main.c
+131 text1 CODE >212:C:\Users\User\Desktop\laba5_3.X\main.c
+13A text1 CODE >214:C:\Users\User\Desktop\laba5_3.X\main.c
+140 text1 CODE >216:C:\Users\User\Desktop\laba5_3.X\main.c
+1F6 maintext CODE >218:C:\Users\User\Desktop\laba5_3.X\main.c
+1F6 maintext CODE >220:C:\Users\User\Desktop\laba5_3.X\main.c
+1F9 maintext CODE >221:C:\Users\User\Desktop\laba5_3.X\main.c
+1FC maintext CODE >222:C:\Users\User\Desktop\laba5_3.X\main.c
+1FF maintext CODE >223:C:\Users\User\Desktop\laba5_3.X\main.c
+203 maintext CODE >225:C:\Users\User\Desktop\laba5_3.X\main.c
+205 maintext CODE >226:C:\Users\User\Desktop\laba5_3.X\main.c
+209 maintext CODE >227:C:\Users\User\Desktop\laba5_3.X\main.c
+20C maintext CODE >229:C:\Users\User\Desktop\laba5_3.X\main.c
+20D maintext CODE >230:C:\Users\User\Desktop\laba5_3.X\main.c
+210 maintext CODE >231:C:\Users\User\Desktop\laba5_3.X\main.c
+213 maintext CODE >232:C:\Users\User\Desktop\laba5_3.X\main.c
+214 maintext CODE >233:C:\Users\User\Desktop\laba5_3.X\main.c
+218 maintext CODE >235:C:\Users\User\Desktop\laba5_3.X\main.c
+219 inittext CODE >317:C:\Users\User\AppData\Local\Temp\sipg.
+219 inittext CODE >318:C:\Users\User\AppData\Local\Temp\sipg.
+21A inittext CODE >319:C:\Users\User\AppData\Local\Temp\sipg.
+21B inittext CODE >320:C:\Users\User\AppData\Local\Temp\sipg.
+21C inittext CODE >321:C:\Users\User\AppData\Local\Temp\sipg.
+21D inittext CODE >328:C:\Users\User\AppData\Local\Temp\sipg.
+21D inittext CODE >329:C:\Users\User\AppData\Local\Temp\sipg.
+220 inittext CODE >330:C:\Users\User\AppData\Local\Temp\sipg.
+221 inittext CODE >331:C:\Users\User\AppData\Local\Temp\sipg.
+222 inittext CODE >332:C:\Users\User\AppData\Local\Temp\sipg.
+223 inittext CODE >333:C:\Users\User\AppData\Local\Temp\sipg.
+224 inittext CODE >334:C:\Users\User\AppData\Local\Temp\sipg.
+225 inittext CODE >335:C:\Users\User\AppData\Local\Temp\sipg.
+226 inittext CODE >336:C:\Users\User\AppData\Local\Temp\sipg.
+227 inittext CODE >337:C:\Users\User\AppData\Local\Temp\sipg.
+228 inittext CODE >338:C:\Users\User\AppData\Local\Temp\sipg.
+229 inittext CODE >339:C:\Users\User\AppData\Local\Temp\sipg.
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 2 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+__LdataBANK0 0 0 ABS 0 dataBANK0 -
+__Hspace_0 2008 0 ABS 0 - -
+__Hspace_1 7D 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__HidataBANK0 0 0 ABS 0 idataBANK0 -
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__Hstrings 0 0 ABS 0 strings -
+_T0IF 5A 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+_TMR0 1 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+_TMR1 E 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+___sp 0 0 STACK 2 stack C:\Users\User\AppData\Local\Temp\sipg.obj
+_main 3EC 0 CODE 0 maintext dist/default/production\laba5_3.X.production.obj
+_show 29A 0 CODE 0 text2 dist/default/production\laba5_3.X.production.obj
+_temp 28 0 BANK0 1 dataBANK0 dist/default/production\laba5_3.X.production.obj
+btemp 7E 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+start 24 0 CODE 0 init C:\Users\User\AppData\Local\Temp\sipg.obj
+__size_of_main 0 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+__size_of_show 0 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+__LidataBANK0 0 0 ABS 0 idataBANK0 -
+__Hpowerup 0 0 CODE 0 powerup -
+__HdataCOMMON 0 0 ABS 0 dataCOMMON -
+intlevel0 0 0 ENTRY 0 functab C:\Users\User\AppData\Local\Temp\sipg.obj
+intlevel1 0 0 ENTRY 0 functab C:\Users\User\AppData\Local\Temp\sipg.obj
+intlevel2 0 0 ENTRY 0 functab C:\Users\User\AppData\Local\Temp\sipg.obj
+intlevel3 0 0 ENTRY 0 functab C:\Users\User\AppData\Local\Temp\sipg.obj
+intlevel4 0 0 ENTRY 0 functab C:\Users\User\AppData\Local\Temp\sipg.obj
+intlevel5 0 0 ENTRY 0 functab C:\Users\User\AppData\Local\Temp\sipg.obj
+wtemp0 7E 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+__Hfunctab 0 0 ENTRY 0 functab -
+__Hclrtext 0 0 ABS 0 clrtext -
+__pidataCOMMON 468 0 CODE 0 idataCOMMON dist/default/production\laba5_3.X.production.obj
+show@digit 70 0 COMMON 1 cstackCOMMON dist/default/production\laba5_3.X.production.obj
+__LdataCOMMON 0 0 ABS 0 dataCOMMON -
+__Lmaintext 0 0 ABS 0 maintext -
+_INTCON B 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+_OPTION_REG 81 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+__LidataCOMMON 0 0 ABS 0 idataCOMMON -
+start_initialization 2A 0 CODE 0 cinit dist/default/production\laba5_3.X.production.obj
+__pcstackBANK0 0 0 BANK0 1 cstackBANK0 dist/default/production\laba5_3.X.production.obj
+_TMR1IE 460 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+_TMR1IF 60 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+_TMR1ON 80 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+___int_sp 0 0 STACK 2 stack C:\Users\User\AppData\Local\Temp\sipg.obj
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hcinit 7A 0 CODE 0 cinit -
+__Hidloc 0 0 IDLOC 0 idloc -
+__Hstack 0 0 STACK 2 stack -
+__Hmaintext 0 0 ABS 0 maintext -
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 4010 0 CONFIG 0 config -
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lcinit 2A 0 CODE 0 cinit -
+__Lidloc 0 0 IDLOC 0 idloc -
+__Lstack 0 0 STACK 2 stack -
+__Linittext 0 0 ABS 0 inittext -
+_PORTBbits 6 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hinit 24 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Linit 24 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Ltext 0 0 ABS 0 text -
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__S0 2008 0 ABS 0 - -
+__S1 7D 0 ABS 0 - -
+__S2 0 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+_isr 7A 0 CODE 0 text1 dist/default/production\laba5_3.X.production.obj
+_key 7B 0 COMMON 1 dataCOMMON dist/default/production\laba5_3.X.production.obj
+saved_w 7E 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+__HidataCOMMON 0 0 ABS 0 idataCOMMON -
+_fourth 20 0 BANK0 1 dataBANK0 dist/default/production\laba5_3.X.production.obj
+__end_of_isr 29A 0 CODE 0 text1 dist/default/production\laba5_3.X.production.obj
+__CFG_BOREN$ON 0 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+__Lintentry 8 0 CODE 0 intentry -
+reset_vec 0 0 CODE 0 reset_vec C:\Users\User\AppData\Local\Temp\sipg.obj
+__pdataBANK0 20 0 BANK0 1 dataBANK0 dist/default/production\laba5_3.X.production.obj
+__pmaintext 3EC 0 CODE 0 maintext dist/default/production\laba5_3.X.production.obj
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 400E 0 CONFIG 0 config -
+__CFG_CP$OFF 0 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+__CFG_WDTE$OFF 0 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+__Hinittext 0 0 ABS 0 inittext -
+_result 79 0 COMMON 1 dataCOMMON dist/default/production\laba5_3.X.production.obj
+_second 24 0 BANK0 1 dataBANK0 dist/default/production\laba5_3.X.production.obj
+stackhi 0 0 ABS 0 - C:\Users\User\AppData\Local\Temp\sipg.obj
+stacklo 0 0 ABS 0 - C:\Users\User\AppData\Local\Temp\sipg.obj
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+init_fetch0 432 0 CODE 0 inittext dist/default/production\laba5_3.X.production.obj
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__Lend_init 24 0 CODE 0 end_init -
+__CFG_LVP$ON 0 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+end_of_initialization 72 0 CODE 0 cinit dist/default/production\laba5_3.X.production.obj
+__Hintentry 24 0 CODE 0 intentry -
+__Lstrings 0 0 ABS 0 strings -
+__Hreset_vec 6 0 CODE 0 reset_vec -
+__ptext1 7A 0 CODE 0 text1 dist/default/production\laba5_3.X.production.obj
+__ptext2 29A 0 CODE 0 text2 dist/default/production\laba5_3.X.production.obj
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__CFG_FOSC$HS 0 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+__end_of__initialization 72 0 CODE 0 cinit dist/default/production\laba5_3.X.production.obj
+__Lfunctab 0 0 ENTRY 0 functab -
+__pidataBANK0 454 0 CODE 0 idataBANK0 dist/default/production\laba5_3.X.production.obj
+__Lclrtext 0 0 ABS 0 clrtext -
+__CFG_PWRTE$ON 0 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+_T1CKPS0 84 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+_T1CKPS1 85 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\laba5_3.X.production.obj
+__Hend_init 2A 0 CODE 0 end_init -
+init_ram0 43A 0 CODE 0 inittext dist/default/production\laba5_3.X.production.obj
+__end_of_main 432 0 CODE 0 maintext dist/default/production\laba5_3.X.production.obj
+__end_of_show 3EC 0 CODE 0 text2 dist/default/production\laba5_3.X.production.obj
+_PORTA 5 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+_PORTB 6 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+_PORTD 8 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+_TRISA 85 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+_TRISB 86 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+_TRISD 88 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+interrupt_function 8 0 CODE 0 intentry dist/default/production\laba5_3.X.production.obj
+_first 26 0 BANK0 1 dataBANK0 dist/default/production\laba5_3.X.production.obj
+__CFG_CPD$OFF 0 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+_third 22 0 BANK0 1 dataBANK0 dist/default/production\laba5_3.X.production.obj
+__pintentry 8 0 CODE 0 intentry dist/default/production\laba5_3.X.production.obj
+__size_of_isr 0 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+__HdataBANK0 0 0 ABS 0 dataBANK0 -
+__initialization 2A 0 CODE 0 cinit dist/default/production\laba5_3.X.production.obj
+__pdataCOMMON 79 0 COMMON 1 dataCOMMON dist/default/production\laba5_3.X.production.obj
+__CFG_WRT$OFF 0 0 ABS 0 - dist/default/production\laba5_3.X.production.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+cstackCOMMON 1 70 70 D 1
+intentry 0 4 8 234 2
+reset_vec 0 0 0 3 2
+dataBANK0 1 20 20 A 1
+config 0 2007 400E 1 2

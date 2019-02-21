@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.4.1 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=tests.map -O0 --gc-sections -LK:\CooCox\CoIDE\configuration\ProgramData\tests -TK:\CooCox\CoIDE\configuration\ProgramData\tests/arm-gcc-link.ld -g">
+      <target file="tests.elf" lastModified="162dedfc92a">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="162dedfbd46"/>
+         <source file="..\obj\startup_stm32f10x_md_vl.o" lastModified="162dedfbe0f"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="162dedfbec2"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="162dedfbfa6"/>
+         <source file="..\obj\main.o" lastModified="162dedfc34c"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="162dedfc478"/>
+         <source file="..\obj\syscalls.o" lastModified="162dedfc562"/>
+      </target>
+   </processor>
+</history>
