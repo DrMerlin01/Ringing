@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.4.1 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=llllaf.map -O0 --gc-sections -LK:\CooCox\CoIDE\configuration\ProgramData\llllaf -TK:\CooCox\CoIDE\configuration\ProgramData\llllaf/arm-gcc-link.ld -g">
+      <target file="llllaf.elf" lastModified="16310874f6f">
+         <source file="..\obj\startup_stm32f10x_md_vl.o" lastModified="1630620bb8e"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="1630620bbeb"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1630620bc5e"/>
+         <source file="..\obj\main.o" lastModified="16310874cf6"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1630620bd3e"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="1630620bdb3"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="1630620be17"/>
+         <source file="..\obj\syscalls.o" lastModified="1630620bf05"/>
+      </target>
+   </processor>
+</history>
