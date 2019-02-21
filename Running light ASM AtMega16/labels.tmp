@@ -1,0 +1,43 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.2</VERSION>
+ <DEVICE>ATmega16</DEVICE>
+ <WORKING_DIR>C:\Users\User\Desktop\laba1</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\User\Desktop\laba1\laba1.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\User\Desktop\laba1\laba1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\User\Desktop\laba1\laba1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\User\Desktop\laba1\laba1.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <Proga><FILE>C:\Users\User\Desktop\laba1\laba1.asm</FILE><LINE>35</LINE></Proga>
+  <Button><FILE>C:\Users\User\Desktop\laba1\laba1.asm</FILE><LINE>221</LINE></Button>
+  <Delay><FILE>C:\Users\User\Desktop\laba1\laba1.asm</FILE><LINE>84</LINE></Delay>
+  <Loop><FILE>C:\Users\User\Desktop\laba1\laba1.asm</FILE><LINE>90</LINE></Loop>
+  <RButton><FILE>C:\Users\User\Desktop\laba1\laba1.asm</FILE><LINE>104</LINE></RButton>
+  <r_but><FILE>C:\Users\User\Desktop\laba1\laba1.asm</FILE><LINE>108</LINE></r_but>
+  <T4><FILE>C:\Users\User\Desktop\laba1\laba1.asm</FILE><LINE>120</LINE></T4>
+  <T5><FILE>C:\Users\User\Desktop\laba1\laba1.asm</FILE><LINE>126</LINE></T5>
+  <cnt_1><FILE>C:\Users\User\Desktop\laba1\laba1.asm</FILE><LINE>155</LINE></cnt_1>
+  <T6_1><FILE>C:\Users\User\Desktop\laba1\laba1.asm</FILE><LINE>139</LINE></T6_1>
+  <T6_2><FILE>C:\Users\User\Desktop\laba1\laba1.asm</FILE><LINE>147</LINE></T6_2>
+  <exit><FILE>C:\Users\User\Desktop\laba1\laba1.asm</FILE><LINE>158</LINE></exit>
+  <LButton><FILE>C:\Users\User\Desktop\laba1\laba1.asm</FILE><LINE>162</LINE></LButton>
+  <l_but><FILE>C:\Users\User\Desktop\laba1\laba1.asm</FILE><LINE>166</LINE></l_but>
+  <T4_1><FILE>C:\Users\User\Desktop\laba1\laba1.asm</FILE><LINE>178</LINE></T4_1>
+  <T5_1><FILE>C:\Users\User\Desktop\laba1\laba1.asm</FILE><LINE>184</LINE></T5_1>
+  <cnt_2><FILE>C:\Users\User\Desktop\laba1\laba1.asm</FILE><LINE>213</LINE></cnt_2>
+  <T6_1_2><FILE>C:\Users\User\Desktop\laba1\laba1.asm</FILE><LINE>197</LINE></T6_1_2>
+  <T6_2_2><FILE>C:\Users\User\Desktop\laba1\laba1.asm</FILE><LINE>205</LINE></T6_2_2>
+  <exit_1><FILE>C:\Users\User\Desktop\laba1\laba1.asm</FILE><LINE>216</LINE></exit_1>
+ </LABELS>
+</ASSEMBLER_INFO>
