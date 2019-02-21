@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.4.1 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=laba5_2.map -O0 --gc-sections -LK:\CooCox\CoIDE\configuration\ProgramData\laba5_2 -TK:\CooCox\CoIDE\configuration\ProgramData\laba5_2/arm-gcc-link.ld -g">
+      <target file="laba5_2.elf" lastModified="162944d72d7">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="16284f3b7fb"/>
+         <source file="..\obj\startup_stm32f10x_md_vl.o" lastModified="16284f3b8a0"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="16284f3b915"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="16284f3b982"/>
+         <source file="..\obj\main.o" lastModified="162944d700e"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="16284f3ba8f"/>
+         <source file="..\obj\syscalls.o" lastModified="16284f3bae4"/>
+         <source file="..\obj\misc.o" lastModified="16284f3bb3c"/>
+      </target>
+   </processor>
+</history>

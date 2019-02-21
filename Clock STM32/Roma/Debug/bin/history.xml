@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.4.1 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Roma.map -O0 --gc-sections -LK:\CooCox\CoIDE\configuration\ProgramData\Roma -TK:\CooCox\CoIDE\configuration\ProgramData\Roma/arm-gcc-link.ld -g">
+      <target file="Roma.elf" lastModified="16306727017">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="163018af769"/>
+         <source file="..\obj\startup_stm32f10x_md_vl.o" lastModified="163018af797"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="163018af7e5"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="163018af837"/>
+         <source file="..\obj\main.o" lastModified="16306726e2f"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="163018afb08"/>
+         <source file="..\obj\syscalls.o" lastModified="163018afb58"/>
+      </target>
+   </processor>
+</history>
