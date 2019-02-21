@@ -1,0 +1,224 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 6 ]
+"6 K:\Microchip\xc8\v1.45\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"6 K:\Microchip\xc8\v1.45\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"62 K:\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 K:\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 K:\Microchip\xc8\v1.45\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"79 C:\Users\User\Desktop\lll.X\lcd_hd44780_pic16.c
+[v _LCDByte LCDByte `(v  1 e 1 0 ]
+"134
+[v _LCDBusyLoop LCDBusyLoop `(v  1 e 1 0 ]
+"192
+[v _LCDInit LCDInit `(v  1 e 1 0 ]
+"250
+[v _LCDWriteString LCDWriteString `(v  1 e 1 0 ]
+"351
+[v _LCDGotoXY LCDGotoXY `(v  1 e 1 0 ]
+"25 C:\Users\User\Desktop\lll.X\main.c
+[v _clockTime clockTime `(v  1 e 1 0 ]
+"82
+[v _isr isr `II(v  1 e 1 0 ]
+"130
+[v _main main `(v  1 e 1 0 ]
+"15 C:\Users\User\Desktop\lll.X\custom_char.h
+[v ___cgram __cgram `[64]uc  1 e 64 0 ]
+"57 K:\Microchip\xc8\v1.45\include\pic16f877a.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+"214
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S96 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"231
+[u S105 . 1 `S96 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES105  1 e 1 @6 ]
+"338
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"632
+[v _TMR1 TMR1 `VEus  1 e 2 @14 ]
+"728
+[v _TMR2 TMR2 `VEuc  1 e 1 @17 ]
+"1253
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @129 ]
+"1373
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1497
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+[s S34 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"1514
+[u S43 . 1 `S34 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES43  1 e 1 @136 ]
+"2501
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"2541
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"2629
+[v _RD4 RD4 `VEb  1 e 0 @68 ]
+"2631
+[v _RD5 RD5 `VEb  1 e 0 @69 ]
+"2633
+[v _RD6 RD6 `VEb  1 e 0 @70 ]
+"2689
+[v _T0IF T0IF `VEb  1 e 0 @90 ]
+"2693
+[v _T1CKPS0 T1CKPS0 `VEb  1 e 0 @132 ]
+"2695
+[v _T1CKPS1 T1CKPS1 `VEb  1 e 0 @133 ]
+"2703
+[v _T2CKPS0 T2CKPS0 `VEb  1 e 0 @144 ]
+"2705
+[v _T2CKPS1 T2CKPS1 `VEb  1 e 0 @145 ]
+"2707
+[v _TMR0IE TMR0IE `VEb  1 e 0 @93 ]
+"2711
+[v _TMR1CS TMR1CS `VEb  1 e 0 @129 ]
+"2713
+[v _TMR1IE TMR1IE `VEb  1 e 0 @1120 ]
+"2715
+[v _TMR1IF TMR1IF `VEb  1 e 0 @96 ]
+"2717
+[v _TMR1ON TMR1ON `VEb  1 e 0 @128 ]
+"2719
+[v _TMR2IE TMR2IE `VEb  1 e 0 @1121 ]
+"2721
+[v _TMR2IF TMR2IF `VEb  1 e 0 @97 ]
+"2723
+[v _TMR2ON TMR2ON `VEb  1 e 0 @146 ]
+"16 C:\Users\User\Desktop\lll.X\main.c
+[v _second second `i  1 e 2 0 ]
+"17
+[v _minute minute `i  1 e 2 0 ]
+"18
+[v _hours hours `i  1 e 2 0 ]
+"20
+[v _vrS vrS `i  1 e 2 0 ]
+"21
+[v _vrM vrM `i  1 e 2 0 ]
+"22
+[v _vrH vrH `i  1 e 2 0 ]
+"23
+[v _FB FB `i  1 e 2 0 ]
+[v _SB SB `i  1 e 2 0 ]
+"130
+[v _main main `(v  1 e 1 0 ]
+{
+"132
+[v main@smile smile `[8]uc  1 a 8 15 ]
+"245
+} 0
+"25
+[v _clockTime clockTime `(v  1 e 1 0 ]
+{
+[v clockTime@x x `i  1 p 2 12 ]
+"80
+} 0
+"250 C:\Users\User\Desktop\lll.X\lcd_hd44780_pic16.c
+[v _LCDWriteString LCDWriteString `(v  1 e 1 0 ]
+{
+"286
+[v LCDWriteString@cc cc `c  1 a 1 11 ]
+"250
+[v LCDWriteString@msg msg `*.26DCuc  1 p 2 9 ]
+"304
+} 0
+"6 K:\Microchip\xc8\v1.45\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"11
+[v ___awmod@sign sign `uc  1 a 1 2 ]
+[v ___awmod@counter counter `uc  1 a 1 1 ]
+"6
+[v ___awmod@divisor divisor `i  1 p 2 4 ]
+[v ___awmod@dividend dividend `i  1 p 2 6 ]
+"35
+} 0
+"6 K:\Microchip\xc8\v1.45\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 3 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 2 ]
+[v ___awdiv@counter counter `uc  1 a 1 1 ]
+"6
+[v ___awdiv@divisor divisor `i  1 p 2 4 ]
+[v ___awdiv@dividend dividend `i  1 p 2 6 ]
+"42
+} 0
+"192 C:\Users\User\Desktop\lll.X\lcd_hd44780_pic16.c
+[v _LCDInit LCDInit `(v  1 e 1 0 ]
+{
+[v LCDInit@style style `uc  1 a 1 wreg ]
+"244
+[v LCDInit@__i __i `uc  1 a 1 12 ]
+"192
+[v LCDInit@style style `uc  1 a 1 wreg ]
+"208
+[v LCDInit@style style `uc  1 a 1 11 ]
+"249
+} 0
+"351
+[v _LCDGotoXY LCDGotoXY `(v  1 e 1 0 ]
+{
+[v LCDGotoXY@x x `uc  1 a 1 wreg ]
+[v LCDGotoXY@x x `uc  1 a 1 wreg ]
+[v LCDGotoXY@y y `uc  1 p 1 9 ]
+"353
+[v LCDGotoXY@x x `uc  1 a 1 10 ]
+"394
+} 0
+"79
+[v _LCDByte LCDByte `(v  1 e 1 0 ]
+{
+[v LCDByte@c c `uc  1 a 1 wreg ]
+"89
+[v LCDByte@temp temp `uc  1 a 1 8 ]
+"88
+[v LCDByte@ln ln `uc  1 a 1 6 ]
+[v LCDByte@hn hn `uc  1 a 1 5 ]
+"79
+[v LCDByte@c c `uc  1 a 1 wreg ]
+[v LCDByte@isdata isdata `uc  1 p 1 6 ]
+"91
+[v LCDByte@c c `uc  1 a 1 7 ]
+"132
+} 0
+"134
+[v _LCDBusyLoop LCDBusyLoop `(v  1 e 1 0 ]
+{
+"138
+[v LCDBusyLoop@status status `uc  1 a 1 2 ]
+[v LCDBusyLoop@temp temp `uc  1 a 1 1 ]
+[v LCDBusyLoop@busy busy `uc  1 a 1 0 ]
+"190
+} 0
+"82 C:\Users\User\Desktop\lll.X\main.c
+[v _isr isr `II(v  1 e 1 0 ]
+{
+"128
+} 0
