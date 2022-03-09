@@ -1,10 +1,10 @@
 # Ringing
-A collection of projects on working with various peripherals for STM32, PIC16, Atmega8 microcontrollers, as well as circuits for connecting peripherals.
+A collection of projects on working with various peripherals for STM32, PIC16, Atmega16 microcontrollers, as well as circuits for connecting peripherals.
 # System requirements and Stack
   1. C/C++
   2. CooCox CoIDE Version: 1.7.8
   3. STM32F10x
-  4. Atmega8
+  4. Atmega16
   5. PIC16
   6. Proteus
   7. Atmel Studio 4 and 7
